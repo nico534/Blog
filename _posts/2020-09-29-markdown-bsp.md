@@ -83,7 +83,7 @@ Unterstriche
 
 # Bilder:
 
-<img class="img-fluid" src="/img/posts/06.jpg" alt="Demo Image">
+<img class="img-fluid" src="{{site.baseurl}}/img/posts/06.jpg" alt="Demo Image">
 
 ---
 
