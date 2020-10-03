@@ -1,9 +1,12 @@
 #!/bin/bash
 
+export GEM_HOME=~/gems
+
 # start the server
-LOCATION=~/SoftwareProjects/startbootstrap-clean-blog-jekyll
+LOCATION=~/Blog
 
 cd $LOCATION
 atom $LOCATION
 bundle exec jekyll serve &
+sleep 2
 firefox http://localhost:4000/Blog/ &
